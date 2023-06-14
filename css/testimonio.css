@@ -1,0 +1,30 @@
+.testimonios{
+    background: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+.contenedor-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.testimonios img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+}
+.contenedor-img div{
+    margin: 20px;
+}
+@media (min-width: 750px){
+    .contenedor-img div{
+        width: 40%;
+    }
+}
+@media (min-width: 1000px){
+    .contenedor-img div{
+        width: 20%;
+    }
+}
